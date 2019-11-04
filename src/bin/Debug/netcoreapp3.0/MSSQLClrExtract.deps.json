@@ -1,0 +1,319 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MSSQLClrExtract/1.0.0": {
+        "dependencies": {
+          "Console.CommandHandler": "1.0.0",
+          "Sys.ConsoleX": "1.0.1",
+          "System.Data.SqlClient": "4.7.0"
+        },
+        "runtime": {
+          "MSSQLClrExtract.dll": {}
+        }
+      },
+      "Console.CommandHandler/1.0.0": {
+        "dependencies": {
+          "Console.CommandHandler.Abstractions": "1.0.0",
+          "Console.CommandHandler.Primitives": "1.0.0",
+          "Newtonsoft.Json": "12.0.2",
+          "ObjectForest": "1.0.0",
+          "Sys.ConsoleX": "1.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Console.CommandHandler.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Console.CommandHandler.Abstractions/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Console.CommandHandler.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Console.CommandHandler.Primitives/1.0.0": {
+        "dependencies": {
+          "Console.CommandHandler.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Console.CommandHandler.Primitives.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "IntegerHelper/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/IntegerHelper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0": {},
+      "Microsoft.Win32.Registry/4.6.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "ObjectForest/1.0.0": {
+        "dependencies": {
+          "ObjectForest.Abstrations": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ObjectForest.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ObjectForest.Abstrations/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/ObjectForest.Abstrations.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.6.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "StringHelper.Extension/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/StringHelper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Sys.ConsoleX/1.0.1": {
+        "dependencies": {
+          "Console.CommandHandler.Primitives": "1.0.0",
+          "IntegerHelper": "1.0.0",
+          "StringHelper.Extension": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ConsoleX.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.7.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.6.0",
+          "System.Security.Principal.Windows": "4.6.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.6.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.700.19.46214"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.6.0": {}
+    }
+  },
+  "libraries": {
+    "MSSQLClrExtract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Console.CommandHandler/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+tK4S1emJajbA8TxBuRv0Js0MOv6EXOHnQzLpt4Tvh7LbLmt9J7wcZobQoEHQKvY9WLHDiMFKl/WFaG+lGv2ng==",
+      "path": "console.commandhandler/1.0.0",
+      "hashPath": "console.commandhandler.1.0.0.nupkg.sha512"
+    },
+    "Console.CommandHandler.Abstractions/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-25ywSafyVShIXgZV6up/bkrTMvP4VPcPrxMbJkuwNyNiAvZFdEbecoGhWLDms8heLa5gzOdSWlvTmOYPf9VAmw==",
+      "path": "console.commandhandler.abstractions/1.0.0",
+      "hashPath": "console.commandhandler.abstractions.1.0.0.nupkg.sha512"
+    },
+    "Console.CommandHandler.Primitives/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7iM3ps1h9ckqQhA9wuPeGD6JkxkE1utICGyUnAqfpZMo2iigtG8JDKqEU/BKu85lNuqR22SYUcEnQ9IRX2qAvw==",
+      "path": "console.commandhandler.primitives/1.0.0",
+      "hashPath": "console.commandhandler.primitives.1.0.0.nupkg.sha512"
+    },
+    "IntegerHelper/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s1M5a/MVX05DhuSnZrhgCzeM6bAH2LXqWK041GEGk6n66MM9lwi5ewaAUkQYJKvXngTLT8zUusMrXev0YYE2wg==",
+      "path": "integerhelper/1.0.0",
+      "hashPath": "integerhelper.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "hashPath": "microsoft.netcore.platforms.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xuqo5Lf5h1eUAbT8sJwNSEgusyEcQQQcza1R8dxJ6q/1vLSU1SG/WxtgiCPAth14dz/IjBXCxWT/+6E9glX33w==",
+      "path": "microsoft.win32.registry/4.6.0",
+      "hashPath": "microsoft.win32.registry.4.6.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "ObjectForest/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VDOWNncYxI58eKEAVRPwQvN9J5Agq1I7Om3ks2EvkRJKkcMMrOVviTXGXAcNt/d4dz9P/8HGbIYCD1mRiT7oig==",
+      "path": "objectforest/1.0.0",
+      "hashPath": "objectforest.1.0.0.nupkg.sha512"
+    },
+    "ObjectForest.Abstrations/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h+SbltgxPyEDP+kWl9xgoLXjm+ctLTCljiGW1MCmvi3M9WN5N7jGrH6nVnve9/A0KPcK4+AxD24zWqb/r084Mw==",
+      "path": "objectforest.abstrations/1.0.0",
+      "hashPath": "objectforest.abstrations.1.0.0.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WRq11dBcJYyAbrUVguvv3BqNGl5ub60mZxUd+xaxNsSOb7tMLQxjbiyD/hF6FSl1akiom7GMttPDa3TW+UmnAQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.6.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.6.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "StringHelper.Extension/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-02zzMHyPYPVJrV9JSl0YIgoqMYTN6S5+iFYP5g/HwFPPQcsTwQ2oPKUGQltBSgAJWdL+Pm9HL6xwYooqtF6l5g==",
+      "path": "stringhelper.extension/1.0.0",
+      "hashPath": "stringhelper.extension.1.0.0.nupkg.sha512"
+    },
+    "Sys.ConsoleX/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oCuRhqmlQm2AQrL6VFA8ctR02+sqBBMkqrat6/aOlSm2ps495A+LXBsWdTR8SHKaLrNetPWJJuam0y25YRBZOw==",
+      "path": "sys.consolex/1.0.1",
+      "hashPath": "sys.consolex.1.0.1.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lV3ljZeFc01DYyjcEBSxK3sy8Ow2R6AWa6o+g0t7B4hoDcA6Kzv4bTB4E4T7C/pKuZzHeBFLxe6fD4Am4q939Q==",
+      "path": "system.data.sqlclient/4.7.0",
+      "hashPath": "system.data.sqlclient.4.7.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmlk6khICtVhiUnVBBtlsH0H/5QFDqhTZgtpp3AX14wWE6OIE+BX95NLD+X4AolXnIy/oXpNNmXYnsNfW1KuDQ==",
+      "path": "system.security.accesscontrol/4.6.0",
+      "hashPath": "system.security.accesscontrol.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mdukseovp0YIGaz16FMH6nbfgZkrCFOJbtXQptv0aeBO9h775Ilb9+TDwLVTKikoW7y7CY7lpoXl9zmZ5G3ndA==",
+      "path": "system.security.principal.windows/4.6.0",
+      "hashPath": "system.security.principal.windows.4.6.0.nupkg.sha512"
+    }
+  }
+}

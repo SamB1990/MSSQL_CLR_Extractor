@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sam\\Source\\Repos\\SamB1990\\MSSQL_CLR_Extractor\\Src\\ClrExtract\\MSSQLClrExtract.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sam\\Source\\Repos\\SamB1990\\MSSQL_CLR_Extractor\\Src\\ClrExtract\\MSSQLClrExtract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sam\\Source\\Repos\\SamB1990\\MSSQL_CLR_Extractor\\Src\\ClrExtract\\MSSQLClrExtract.csproj",
+        "projectName": "MSSQLClrExtract",
+        "projectPath": "C:\\Users\\sam\\Source\\Repos\\SamB1990\\MSSQL_CLR_Extractor\\Src\\ClrExtract\\MSSQLClrExtract.csproj",
+        "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sam\\Source\\Repos\\SamB1990\\MSSQL_CLR_Extractor\\Src\\ClrExtract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Console.CommandHandler": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Sys.ConsoleX": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
