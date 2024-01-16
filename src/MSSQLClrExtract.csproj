@@ -8,7 +8,7 @@
   <ItemGroup>
     <PackageReference Include="Console.CommandHandler" Version="1.0.0" />
     <PackageReference Include="Sys.ConsoleX" Version="1.0.1" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
 </Project>
